@@ -66,6 +66,7 @@ Version: 1.0
 	color: rgba(0, 0, 0, 0.5);
 }
 
+
 html,
 body {
 	margin: 0;
@@ -2605,6 +2606,7 @@ hr {
 .section.hero-started .lui-subtitle {
 	font-size: 15px;
 }
+
 
 .section.hero-started .label strong,
 .section.hero-started .label b {
