@@ -4623,6 +4623,10 @@ input.search-submit,
 		height: 40px;
 		width: 40px;
 	}
+	.dig {
+		width: 250px;
+		margin-left: 70px;
+	}
 }
 
 .comments {
