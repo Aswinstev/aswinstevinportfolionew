@@ -235,6 +235,11 @@ a.lnk,
 	-webkit-transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
 }
 
+.dig{
+	width: 460px;
+	border-radius: 20px;
+}
+
 a.lnk:after,
 .lnk:after {
 	margin-left: 20px;
