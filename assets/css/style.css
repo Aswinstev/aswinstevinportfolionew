@@ -5450,12 +5450,18 @@ a.wp-block-button__link {
 		transform: rotateX(-90deg);
 	  }
 
-
-
-
-
-
-
+	  .why{
+		text-align: center;
+	  }
+	  .skilled{
+		text-align: center;
+	  }
+	  .social-links{
+		text-align: center;
+	  }
+	  .bts{
+		text-align: center;
+	  }
 
 
 	.lui-section {
