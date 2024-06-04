@@ -1088,13 +1088,13 @@ hr {
 }
 
 .v-line-left .v-line-block {
-	left: -100px;
+	left: -78px;
 	right: auto;
 }
 
 .v-line-right .v-line-block {
 	left: auto;
-	right: -100px;
+	right: -84px;
 }
 
 .hero-started .v-line-block {
@@ -1107,7 +1107,7 @@ hr {
 	left: -168px;
 	width: 226px;
 	height: 226px;
-	background-image: url(../images/pat-1.png);
+	background-image: url(../images/);
 	background-repeat: no-repeat;
 	background-size: contain;
 	display: block;
