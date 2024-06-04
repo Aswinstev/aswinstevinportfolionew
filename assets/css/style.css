@@ -157,6 +157,46 @@ b, strong {
 
 /* - Typography */
 
+.change-text {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 10px;
+	font-family: "Caveat", cursive;
+  }
+  
+  .change-text h3 {
+	display: inline-flex;
+	margin: 0;
+	vertical-align: top;
+	color: #000000;
+	font-size: 26px;
+  }
+  .change-text h3 .word {
+	position: absolute;
+	display: flex;
+	opacity: 0;
+	color: #29a587;
+  }
+  
+  .change-text h3 .word .letter {
+	transform-origin: center center 25px;
+  }
+  .change-text h3 .word .letter.out {
+	transform: rotateX(90deg);
+	transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
+  }
+  .change-text h3 .word .letter.in {
+	transition: 0.32s ease;
+  }
+  .change-text h3 .word .letter.behind {
+	transform: rotateX(-90deg);
+  }
+
+
+
+
+
+
 h1,
 h2,
 h3,
@@ -5374,6 +5414,50 @@ a.wp-block-button__link {
 }
 
 @media screen and (max-width: 767px) {
+	.change-text {
+		font-size: 1.5rem;
+		font-weight: 600;
+		margin-top: 10px;
+		margin-right: 180px;
+		font-family: "Caveat", cursive;
+	  }
+	  
+	  .change-text h3 {
+		display: inline-flex;
+		margin: 0;
+		vertical-align: top;
+		color: #000000;
+		font-size: 20px;
+	  }
+	  .change-text h3 .word {
+		position: absolute;
+		display: flex;
+		opacity: 0;
+		color: #29a587;
+	  }
+	  
+	  .change-text h3 .word .letter {
+		transform-origin: center center 25px;
+	  }
+	  .change-text h3 .word .letter.out {
+		transform: rotateX(90deg);
+		transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
+	  }
+	  .change-text h3 .word .letter.in {
+		transition: 0.32s ease;
+	  }
+	  .change-text h3 .word .letter.behind {
+		transform: rotateX(-90deg);
+	  }
+
+
+
+
+
+
+
+
+
 	.lui-section {
 		padding-bottom: 120px;
 	}
