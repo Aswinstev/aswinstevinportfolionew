@@ -1661,6 +1661,7 @@ hr {
 .header .logo {
 	position: relative;
 	margin-right: 30px;
+	padding-right: 50px;
 	float: left;
 	width: 121px;
 	font-size: 0;
