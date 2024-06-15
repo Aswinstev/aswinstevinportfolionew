@@ -1585,7 +1585,7 @@ hr {
 
 @media screen and (max-width: 1200px) {
 	.header.sticky {
-		background: #fff;
+		background: #F0EBE3;
 	}
 }
 
@@ -1677,7 +1677,7 @@ hr {
 }
 
 .header .logo img {
-	max-width: 100%;
+	max-width: 140px;
 	height: auto;
 	transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
 	-moz-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
