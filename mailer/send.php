@@ -40,7 +40,18 @@ $mail->Body = $_POST["message"];
 
 $mail->send();
 
-header("location: index.html");
+echo
+
+"<script>
+
+alert('Sent Successfully');
+
+document.location.href = 'form.php';
+
+</script>
+
+
+";
 
 }
 ?>
